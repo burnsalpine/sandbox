@@ -1,0 +1,11 @@
+C:\Users\renova\src\sandbox\apps\myApp\bin\Debug\netcoreapp2.1\myApp.deps.json
+C:\Users\renova\src\sandbox\apps\myApp\bin\Debug\netcoreapp2.1\myApp.runtimeconfig.json
+C:\Users\renova\src\sandbox\apps\myApp\bin\Debug\netcoreapp2.1\myApp.runtimeconfig.dev.json
+C:\Users\renova\src\sandbox\apps\myApp\bin\Debug\netcoreapp2.1\myApp.dll
+C:\Users\renova\src\sandbox\apps\myApp\bin\Debug\netcoreapp2.1\myApp.pdb
+C:\Users\renova\src\sandbox\apps\myApp\obj\Debug\netcoreapp2.1\myApp.csprojAssemblyReference.cache
+C:\Users\renova\src\sandbox\apps\myApp\obj\Debug\netcoreapp2.1\myApp.csproj.CoreCompileInputs.cache
+C:\Users\renova\src\sandbox\apps\myApp\obj\Debug\netcoreapp2.1\myApp.AssemblyInfoInputs.cache
+C:\Users\renova\src\sandbox\apps\myApp\obj\Debug\netcoreapp2.1\myApp.AssemblyInfo.cs
+C:\Users\renova\src\sandbox\apps\myApp\obj\Debug\netcoreapp2.1\myApp.dll
+C:\Users\renova\src\sandbox\apps\myApp\obj\Debug\netcoreapp2.1\myApp.pdb
