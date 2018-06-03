@@ -39,14 +39,35 @@ namespace myApp
                 Console.WriteLine("Sum is odd.");
             }
 
-            // Prime: A prime number is a natural number that is
-            // 1. Greater than 1 
-            // 2. Has no positive divisors other than 1 and itself.
-            if (sum1 > 1) {
-
-                
-
+            // Prime
+            if (Check_Prime(sum1) == 0){
+                Console.WriteLine("Sum is not a prime number.");
+            } else {
+                Console.WriteLine("Sum is a prime number!");
             }
+            
+        }
+
+        // Prime number checker
+        // Prime: A prime number is
+        // 1. A natural number
+        // 2. Greater than 1 
+        // 3. Has no positive divisors other than 1 and itself.
+        private static int Check_Prime(int number)
+        {
+            int i;
+            for (i = 2; i <= number - 1; i++)
+            {
+                if (number % i == 0)
+                {
+                    return 0;
+                }
+            }
+            if (i == number)
+            {
+                return 1;
+            }
+            return 0;
         }
     }
 }
