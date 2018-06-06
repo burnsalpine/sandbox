@@ -47,6 +47,7 @@ namespace Search
             JObject SearchResults = JObject.Parse(ParsedJSON["webPages"].ToString());
             
             // Loop through each item in SearchResults and output details
+            Console.WriteLine("Results: " + SearchResults.Count);
             foreach (var item in SearchResults)
             {
                 Console.WriteLine(SearchResults["value"][1]["url"]);
@@ -62,6 +63,12 @@ namespace Search
             
             Console.WriteLine("3 - " + SearchResults["value"][2]["url"]);
             Console.WriteLine("    " + SearchResults["value"][2]["snippet"]);
+
+            Console.WriteLine("4 - " + SearchResults["value"][3]["url"]);
+            Console.WriteLine("    " + SearchResults["value"][3]["snippet"]);
+
+            Console.WriteLine("5 - " + SearchResults["value"][4]["url"]);
+            Console.WriteLine("    " + SearchResults["value"][4]["snippet"]);
 
         }
        
