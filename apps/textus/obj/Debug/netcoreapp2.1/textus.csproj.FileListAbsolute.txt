@@ -1,0 +1,11 @@
+C:\Users\renova\src\sandbox\apps\textus\bin\Debug\netcoreapp2.1\textus.deps.json
+C:\Users\renova\src\sandbox\apps\textus\bin\Debug\netcoreapp2.1\textus.runtimeconfig.json
+C:\Users\renova\src\sandbox\apps\textus\bin\Debug\netcoreapp2.1\textus.runtimeconfig.dev.json
+C:\Users\renova\src\sandbox\apps\textus\bin\Debug\netcoreapp2.1\textus.dll
+C:\Users\renova\src\sandbox\apps\textus\bin\Debug\netcoreapp2.1\textus.pdb
+C:\Users\renova\src\sandbox\apps\textus\obj\Debug\netcoreapp2.1\textus.csprojAssemblyReference.cache
+C:\Users\renova\src\sandbox\apps\textus\obj\Debug\netcoreapp2.1\textus.csproj.CoreCompileInputs.cache
+C:\Users\renova\src\sandbox\apps\textus\obj\Debug\netcoreapp2.1\textus.AssemblyInfoInputs.cache
+C:\Users\renova\src\sandbox\apps\textus\obj\Debug\netcoreapp2.1\textus.AssemblyInfo.cs
+C:\Users\renova\src\sandbox\apps\textus\obj\Debug\netcoreapp2.1\textus.dll
+C:\Users\renova\src\sandbox\apps\textus\obj\Debug\netcoreapp2.1\textus.pdb
