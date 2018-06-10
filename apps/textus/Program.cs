@@ -52,12 +52,14 @@ namespace textus
 			inputString = inputString.ToLower();        
 
 			// Strip unwanted characters from text
-			string[] stripChars = { ";", ",", ".", "_", "^", "(", ")", "[", "]", "'", "?",
-						"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "\n", "\t", "\r" };
-			foreach (string character in stripChars)
-			{
-				inputString = inputString.Replace(character, "");
-			}
+                Regex reg_exp = new Regex("[^a-zA-Z0-9]");
+                inputString = reg_exp.Replace(inputString, " ");
+			//string[] stripChars = { ";", ",", ".", "_", "^", "(", ")", "[", "]", "'", "?",
+			//			"0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "\n", "\t", "\r" };
+			//foreach (string character in stripChars)
+			//{
+			//	inputString = inputString.Replace(character, "");
+			//}
 			
 			// Convert to list of strings, delimiting on spaces
 			List<string> wordList = inputString.Split(' ').ToList();
