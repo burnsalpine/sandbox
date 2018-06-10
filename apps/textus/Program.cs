@@ -19,7 +19,21 @@ namespace textus
 	{
 		static void Main(string[] args)
 		{
-            Console.WriteLine("### Textus Textual Analyzer v1.0 ###");;
+            Console.WriteLine("####################################");
+            Console.WriteLine("### Textus Textual Analyzer v1.0 ###");
+            Console.WriteLine("####################################");
+
+            // List available books
+            Console.WriteLine("");
+            Console.WriteLine("Books:");
+            string[] BookList = Directory.GetFiles(@"D:\media\books"); 
+            
+            foreach (string Book in BookList)
+            {
+                Console.WriteLine(Book);
+            }
+
+            Console.WriteLine("");
             Console.WriteLine("Enter path to source text:");
 			
             // Get path for source text
@@ -27,6 +41,7 @@ namespace textus
 
 			string inputString = File.ReadAllText(filename);
 			
+            Console.WriteLine("");
             Console.WriteLine("Loading " + filename + "...");
 
 			// Convert text to lowercase
@@ -108,7 +123,8 @@ namespace textus
 					break;
 				}
 			}
-			
+
+        Console.WriteLine("Analysis Complete.");
 
 		} // End of Main method
 
