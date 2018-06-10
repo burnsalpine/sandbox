@@ -11,7 +11,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 // Features to add
-// Number of unique words
+// Vocabulary score
 
 namespace textus
 {
@@ -71,7 +71,7 @@ namespace textus
 			foreach (string word in wordList)
 			{
 				// If the length of the word is at least three letters...
-				if (word.Length >= 5) 
+				if (word.Length >= 8) 
 				{
 					// ...check if the dictionary already has the word.
 					if ( dictionary.ContainsKey(word) )
@@ -118,8 +118,8 @@ namespace textus
 				Console.WriteLine(count + "\t" + pair.Key + "\t" + pair.Value);
 				count++;
 
-				// Only display the top 10 words then break out of the loop!
-				if (count > 25)
+				// Display top words
+				if (count > 50)
 				{
 					break;
 				}
