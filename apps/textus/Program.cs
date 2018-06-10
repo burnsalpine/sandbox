@@ -63,23 +63,8 @@ namespace textus
 			
 			// Convert to list of strings, delimiting on spaces
 			List<string> wordList = inputString.Split(' ').ToList();
-
-			// Define and remove stopwords
-			string[] stopwords = new string[] { "and", "the", "she", "for", "this", "you", "but" };
-			foreach (string word in stopwords)
-			{
-				// While there's still an instance of a stopword in the wordList, remove it.
-				// If we don't use a while loop on this each call to Remove simply removes a single
-				// instance of the stopword from our wordList, and we can't call Replace on the
-				// entire string (as opposed to the individual words in the string) as it's
-				// too indiscriminate (i.e. removing 'and' will turn words like 'bandage' into 'bdage'!)
-				while ( wordList.Contains(word) )
-				{
-					wordList.Remove(word);
-				}
-			}
 			
-			// Create a new Dictionary object
+			// Create a new Dictionary object to store the words
 			Dictionary<string, int> dictionary = new Dictionary<string, int>();
 
 			// Loop over all over the words in our wordList...
